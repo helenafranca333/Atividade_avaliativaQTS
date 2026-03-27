@@ -1,4 +1,4 @@
-from app import calcular_total, validar_pedido
+from cantina import calcular_total, validar_pedido
 
 def test_calcular_total_basico():
     assert calcular_total(2, 5) == 10
